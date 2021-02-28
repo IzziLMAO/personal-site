@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+}
+.poza_eu{
+    width: 200px;
+    border-radius: 50% ;
+    padding: 10rem 0;
+}
+
+.header_style{
+    background-image: url("Images/mar.jpg");
+    background-color: rgba(255, 254, 241, 0.6);
+    background-blend-mode: multiply;
+    padding: 16rem;
+}
+.text_mare_header{
+    font-family: Sacramento;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #66BFBF;
+}
+.text_mic_header{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    font-size: 1.45rem;
+    color: #66BFBF;
+}
+.titlu_subtitlu{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    color: #006d6d ;
+    font-size: 1.2rem;
+}
+.icons_style{
+    width: 27%;
+
+}
+.icon_1_3{
+    float: left;
+    padding-right: 2rem;
+
+}
+.icon_2_4{
+    float:right;
+    padding-left: 2rem;
+}
+
+.scris_descriere{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    margin: 0 11.5%; 
+}
+.descriere_sus{
+    padding: 10rem 0;
+}
+.mari{
+    font-size: 2.6rem;
+    color: #66BFBF;
+    font-weight: normal;
+    
+}
+.skills{
+    padding: 3rem 0;
+}
+.content{
+    padding-bottom: 3.5rem;
+}
+p{
+    color: rgb(90, 87, 87);
+}
+section p{
+    line-height: 3rem;
+    text-align: left;
+}
+.section_class{
+    margin: 0 21%;
+}
+.titlu_stanga{
+    text-align: left;
+    padding-bottom: 1.3rem;
+}
+.titlu_dreapta{
+    text-align: right;
+    padding-bottom: 1.3rem;
+}
+.jos{
+    padding-top: 1.1rem;
+}
+.jos_subtitlu{
+    padding: 1.2rem;
+}
+
+.buton_text{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+}
+
+button{
+    background-color: #006d6d;
+    text-align: center;
+    margin-top: 3rem;
+    width: 119px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after{
+    right:0;
+    bottom: -20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+button:hover span{
+    padding-bottom: 25px;
+    border: none;
+}
+button:hover span::after{
+    cursor: pointer;
+    border: none;
+}
+
+.footer_style{
+    background-color: #66BFBF;
+    text-align: center;
+    margin-top: 70px;
+    padding: 40px;
+    font-weight: normal;
+    color: gainsboro
+}
+.link_social{
+    margin:20px;
+    color: #006d6d;
+    text-decoration: none;
+}
+hr{
+    border:none;
+    border-top: 3px double #333;
+    overflow: visible;
+    text-align: center;
+}
+hr:after{
+    content: '§';
+    position: relative;
+    padding: 0 5px;
+    top: -22px;
+    font-size: 2rem;
+    background: #fff;
+}
